@@ -66,6 +66,7 @@ animals = [
         "img": "imgs/animals/bear.jpg",
         "desc": "Bears are carnivoran mammals of the family Ursidae. They are classified as caniforms, or doglike carnivorans.",
         "sound": "growl",
+        "toned": "",
         "mp3": "mp3/animals/bear-growling.mp3"
 
     },
