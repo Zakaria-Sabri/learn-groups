@@ -1,0 +1,10 @@
+.bg-animals {
+    background-image: url("https://previews.123rf.com/images/nataliiavolyk/nataliiavolyk1911/nataliiavolyk191100290/134493479-seamless-pattern-with-animals-icons-animal-icons-set-isolated-on-white-background.jpg");
+    background-size: contain;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
