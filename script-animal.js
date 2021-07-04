@@ -45,6 +45,15 @@ animals = [
         "mp3": "mp3/animals/dog-bark.mp3"
 
     },
+    {
+        "id": 6,
+        "name": "donkey",
+        "img": "imgs/animals/donkey.jpg",
+        "desc": "A donkey is a four-legged animal, distantly related to the horse.",
+        "sound": "bray",
+        "mp3": "mp3/animals/donkey-bray.mp3"
+
+    },
 
 
 ];
