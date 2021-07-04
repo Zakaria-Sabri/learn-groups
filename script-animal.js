@@ -9,8 +9,6 @@ animals = [
         "mp3": "mp3/animals/lion-roar.mp3"
 
     },
-
-
     {
         "id": 2,
         "name": "tiger",
@@ -18,6 +16,15 @@ animals = [
         "desc": "The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera.",
         "sound": "Chuff",
         "mp3": "mp3/animals/tiger-chuff.mp3"
+
+    },
+    {
+        "id": 3,
+        "name": "Cat",
+        "img": "imgs/animals/cat.jpg",
+        "desc": "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
+        "sound": "Meowing",
+        "mp3": "mp3/animals/cat-meowing.mp3"
 
     },
     {
@@ -29,6 +36,7 @@ animals = [
         "mp3": "mp3/animals/chicken-cluck.mp3"
 
     },
+
 
 ];
 
