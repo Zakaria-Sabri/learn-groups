@@ -20,7 +20,15 @@ animals = [
         "mp3": "mp3/animals/tiger-chuff.mp3"
 
     },
+    {
+        "id": 4,
+        "name": "chicken",
+        "img": "imgs/animals/chiken.jpg",
+        "desc": "The chicken (Gallus gallus domesticus), a subspecies of the red junglefowl.",
+        "sound": "Cluck",
+        "mp3": "mp3/animals/chicken-cluck.mp3"
 
+    },
 
 ];
 
