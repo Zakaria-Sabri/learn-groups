@@ -21,6 +21,16 @@ animals = [
 
     },
 
+    {
+        "id": 3,
+        "name": "Cat",
+        "img": "imgs/animals/cat.jpg",
+        "desc": "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
+        "sound": "Meowing",
+        "mp3": "mp3/animals/cat-meowing.mp3"
+
+    },
+
 
 ];
 
