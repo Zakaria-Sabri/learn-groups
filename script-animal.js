@@ -6,6 +6,7 @@ animals = [
         "img": "imgs/animals/lion.png",
         "desc": "The lion (Panthera leo) is a large felid of the genus Panthera native mainly to Africa.",
         "sound": "Roar",
+        "toned": "",
         "mp3": "mp3/animals/lion-roar.mp3"
 
     },
@@ -15,6 +16,7 @@ animals = [
         "img": "imgs/animals/tiger.jpg",
         "desc": "The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera.",
         "sound": "Chuff",
+        "toned": "",
         "mp3": "mp3/animals/tiger-chuff.mp3"
 
     },
@@ -24,6 +26,7 @@ animals = [
         "img": "imgs/animals/cat.jpg",
         "desc": "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
         "sound": "Meowing",
+        "toned": "Meow Meow",
         "mp3": "mp3/animals/cat-meowing.mp3"
 
     },
@@ -33,6 +36,7 @@ animals = [
         "img": "imgs/animals/chiken.jpg",
         "desc": "The chicken (Gallus gallus domesticus), a subspecies of the red junglefowl.",
         "sound": "Cluck",
+        "toned": "Ko-Ki-Oh",
         "mp3": "mp3/animals/chicken-cluck.mp3"
 
     },
@@ -42,6 +46,7 @@ animals = [
         "img": "imgs/animals/dog.jpeg",
         "desc": "The domestic dog (Canis familiaris or Canis lupus familiaris)[4] is a domesticated descendant of the wolf.",
         "sound": "Bark",
+        "toned": "Woof Woof",
         "mp3": "mp3/animals/dog-bark.mp3"
 
     },
@@ -51,6 +56,7 @@ animals = [
         "img": "imgs/animals/donkey.jpg",
         "desc": "A donkey is a four-legged animal, distantly related to the horse.",
         "sound": "bray",
+        "toned": "hee-haw",
         "mp3": "mp3/animals/donkey-bray.mp3"
 
     },
@@ -78,7 +84,10 @@ for (let i = 0; i < animals.length; i++) {
         <div class="card-body">
             <h4 class="card-title text-uppercase">${animals[i].name}</h4>
             <p class="card-text">${animals[i].desc}</p>
-            <button onclick="sound('${animals[i].mp3}')" class="btn btn-primary w-100"><i class="fa fa-volume-up"></i> ${animals[i].sound}</button>
+            <button onclick="sound('${animals[i].mp3}')" class="btn btn-primary w-100">
+            <i class="fa fa-volume-up"></i> ${animals[i].sound}
+            <span class="badge badge-light"> ${animals[i].toned}</span>
+            </button>
         </div>
     </div>
     </div>
