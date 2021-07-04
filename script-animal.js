@@ -36,6 +36,15 @@ animals = [
         "mp3": "mp3/animals/chicken-cluck.mp3"
 
     },
+    {
+        "id": 5,
+        "name": "dog",
+        "img": "imgs/animals/dog.jpeg",
+        "desc": "The domestic dog (Canis familiaris or Canis lupus familiaris)[4] is a domesticated descendant of the wolf.",
+        "sound": "Bark",
+        "mp3": "mp3/animals/dog-bark.mp3"
+
+    },
 
 
 ];
