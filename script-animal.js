@@ -58,7 +58,7 @@ for (let i = 0; i < animals.length; i++) {
     <div class="card shadow-lg">
         <img class="card-img-top img-fluid" src="${animals[i].img}" alt="Card image">
         <div class="card-body">
-            <h4 class="card-title">${animals[i].name}</h4>
+            <h4 class="card-title text-uppercase">${animals[i].name}</h4>
             <p class="card-text">${animals[i].desc}</p>
             <button onclick="sound('${animals[i].mp3}')" class="btn btn-primary w-100"><i class="fa fa-volume-up"></i> ${animals[i].sound}</button>
         </div>
